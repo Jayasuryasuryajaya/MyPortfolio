@@ -1,0 +1,27 @@
+@media (max-width:706px) {
+    .shapeChange {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Textuh {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .profile-image{
+        width:210px;
+        height:260px;
+    }
+}
+.socialLinks span:hover{
+    width:fit-content;
+    cursor:pointer;
+    scale:1.2;
+}
