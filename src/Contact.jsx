@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className="row w-100" onClick={confetties}>
                     <div className="col-12 col-md-12 col-sm-12 col-lg-12" >
                         <form className="card p-4  mt-2 fw-bold" style={{boxShadow:' rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px',color:'black'}} onSubmit={validate.handleSubmit}>
-                    <h3 className='fw-bold fs-3 '>Contact </h3>
+                    <h3 className='fw-bold fs-3 '>Share your Thoughts! </h3>
                            
                             <label htmlFor="Text"> Name*
                                 <input  type="text"  name="name"  className="form-control p-2"  id="Text"  onChange={validate.handleChange}  onBlur={validate.handleBlur}  value={validate.values.name}

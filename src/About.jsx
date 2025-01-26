@@ -3,7 +3,7 @@ import AboutMe from './Photos/AboutMe.png'
 import Aboutme2 from './Photos/Aboutme02.png';
 import FadeContent from './FadeContent ';
 import confetti from "canvas-confetti";
-
+import {Link} from 'react-router-dom';
 const About = () => {
   const confetties=()=>{
     confetti(
@@ -29,8 +29,9 @@ const About = () => {
               </b>
               <p className='fw-bold'>Mail : <a href="mailto:njayasurya001@gmail.com">njayasurya001@gmail.com</a> <br />
               <span className='fw-bold'>Contact Number : 7200877947</span></p>
-              
+              <Link to='/Contact'>
               <button className='btn mx-auto' style={{backgroundColor:'black',color:'white'}}>For Contact</button>
+              </Link>
               
               <div className="col-12 mb-3 ">
               <div className=" p-4 img-fluid img-responsive rounded image-container d-flex flex-row justify-content-center gap-3">

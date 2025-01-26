@@ -68,7 +68,7 @@ const RootNav = () => {
               <li className="nav-item mx-auto p-1">
                 <a href={resume} download='MyResume' className="text-decoration-none">
                   <button
-                    className="btn nav-link p-1 mt-1 fw-bold"
+                    className="btn nav-link p-1 mt-2 fw-bold"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" style={{ color: 'black' }}
                     onClick={DownloadmyCV}
