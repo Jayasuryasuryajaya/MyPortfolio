@@ -14,7 +14,8 @@ const Name = () => {
     )
   }
   return (
-    <>
+    <div>
+    <FadeContent blur={true} duration={1500} easing="ease-out" initialOpacity={0}>
       <div className="name-container d-flex justify-content-center" style={{ minHeight: '100vh',backgroundColor:'green' }}>
         <div
           className="row p-5 d-flex mt-5 flex-row align-items-start  rounded" onClick={confetties}
@@ -63,7 +64,9 @@ const Name = () => {
           </div>
         </div>
       </div>
-    </>
+      </FadeContent>
+            
+    </div>
   );
 };
 

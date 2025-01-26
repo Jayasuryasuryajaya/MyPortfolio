@@ -2,11 +2,13 @@ import React from "react";
 import { toast } from "react-toastify";
 import { Link } from 'react-router-dom';
 import './PortfolioCSS/Home.css';
-import resume from './resume.pdf'
+import resume from './resume.pdf';
+
 const RootNav = () => {
   const DownloadmyCV = () => {
     toast.success('Thanks for Downloading My Resume!', { position: 'top-center' });
   };
+
   return (
     <div>
       <nav
@@ -32,7 +34,7 @@ const RootNav = () => {
             className="collapse navbar-collapse justify-content-center align-items-center"
             id="navbarNav"
           >
-            <ul className="navbar-nav " style={{ cursor: 'pointer' }}>
+            <ul className="navbar-nav" style={{ cursor: 'pointer' }}>
               <li className="nav-item">
                 <Link className='text-decoration-none fw-bold' to='/'>
                   <i className="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarNav" style={{ color: 'black' }}>Home</i>

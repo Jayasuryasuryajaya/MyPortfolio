@@ -1,0 +1,46 @@
+.text-container {
+    background-color: green; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .text {
+    font-family: 'Cooper BT', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    margin-top: -200px;
+    opacity: 0;
+    transition: opacity 2.5s ease-in-out; 
+  }
+  .text {
+    animation: bounce 3s ease-out 0.5s 1;
+  }
+  @keyframes bounce {
+    0% {
+      transform: scale(1); 
+      opacity:0
+    }
+    20%,30%{
+      transform: scale(1);
+      opacity: 1;
+    }
+    40%,50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    80% {
+      transform: scale(1.82); 
+      opacity: 1;
+    }
+    100%{
+    transform: scale(2);
+      opacity:0;
+    }
+  }
+
+  
