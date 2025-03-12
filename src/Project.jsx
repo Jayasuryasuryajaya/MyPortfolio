@@ -24,7 +24,7 @@ const Project = () => {
         "MovieHub is a movie browsing platform powered by the TMDb API, providing users with an extensive library of movies, their details, and ratings. The platform features a modern and responsive user interface designed for smooth navigation. Users can search for movies, view trending content, and get detailed information about their favorite films. The project showcases the integration of RESTful APIs and dynamic data rendering using React, highlighting the developer's proficiency in front-end development and API consumption.",
       icon: movieIcon,
       liveLink: 'https://movieorbit.vercel.app/',
-      githubLink: 'https://github.com/Jayasuryasuryajaya/TMDB_MovieSite',
+      githubLink: 'https://github.com/Jayasuryasuryajaya/MovieOrbit',
     },
   ];
 
